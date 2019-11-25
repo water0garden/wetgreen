@@ -1,0 +1,32 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+body {
+  background-color: rgb(102, 255, 255);
+  background: white;
+  color: black;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-top-width: 1px;
+}
+
+h1 {
+
+    font-style: 32px "Times New Roman" ;
+    margin: 0 auto;
+}
+h5 {
+    font-style: Georgia, Times, italic;
+    margin: 0px;
+}
