@@ -21,6 +21,25 @@ hr {
     border-top-width: 1px;
 }
 
+
+.button {
+  border: 1px solid;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 70px;
+  position: relative;
+}
+
+ #projects {
+   margin: 0 auto;
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+
 h1 {
 
     font-style: 32px "Times New Roman" ;
@@ -31,31 +50,18 @@ h5 {
     margin: 0px;
 }
 
-blockquote {
-  padding-top: 10px;
-  padding-bottom: 10px;
+section {
+  display: block;
+  position: relative;
+  text-align: -webkit-left;
+
 }
-
-p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0;
-}
-
-.soon {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0;
-}
-
-
 
 a:link, a:visited {
-color: #0000EE;
+color: blue;
 text-decoration: underline;
 display: inline-block;
 }
 
 a:active { color: #0000EE; }
-a:hover { color: #551A8B;
-}
+a:hover { color: #551A8B;}
