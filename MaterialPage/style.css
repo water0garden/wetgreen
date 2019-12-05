@@ -8,6 +8,9 @@ body {
   background-color: rgb(102, 255, 255);
   background: white;
   color: black;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 20px;
 }
 hr {
     display: block;
@@ -19,8 +22,14 @@ hr {
     overflow: hidden;
     border-style: inset;
     border-top-width: 1px;
+    padding-left: 0;
 }
 
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
 
 .button {
   border: 1px solid;
@@ -51,11 +60,11 @@ h5 {
 }
 
 section {
-  display: block;
+  display: inline-block;
   position: relative;
-  text-align: -webkit-left;
-
 }
+
+
 
 a:link, a:visited {
 color: blue;

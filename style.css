@@ -8,6 +8,9 @@ body {
   background-color: rgb(102, 255, 255);
   background: white;
   color: black;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 20px;
 }
 hr {
     display: block;
@@ -31,10 +34,7 @@ h5 {
     margin: 0px;
 }
 
-blockquote {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 
 p {
   padding-top: 10px;
