@@ -111,10 +111,11 @@ h5 {
 
 /*----------------side bar----------------*/
 #sidebar {
-  width: 200px;
+  width: 220px;
   border-right:  1px solid #000;
   border-right-style: inset;
   padding: 1em;
+  padding-left: .5em;
   font-size: 16px;
   line-height: 1.35;
   display: block;
