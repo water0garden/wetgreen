@@ -10,6 +10,7 @@ body {
   color: black;
   padding-left: 2px;
   padding-right: 2px;
+  padding-top: 20px;
   padding-bottom: 40px;
   font-family: "Times New Roman";
 }
@@ -48,9 +49,15 @@ blockquote {
   position: relative;
 }
 
+#image-title {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 
 #current-title {
-    padding-top: 10px;
+  padding-top: 10px;
   font-weight: 600;
 
 }
