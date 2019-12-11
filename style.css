@@ -111,6 +111,10 @@ section {
   position: relative;
 }
 
+img {
+  max-height: 90%;
+  max-width: 90%;
+}
 
 
 a:link, a:visited {
