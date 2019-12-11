@@ -56,6 +56,7 @@ blockquote {
 
 #current-title {
   padding-top: 10px;
+padding-bottom: 10px;
   font-weight: 600;
 }
 
@@ -67,7 +68,7 @@ blockquote {
 #address{
   padding-top: 20px;
   padding-bottom: 20px;
-  line-height: 1.20em;
+  line-height: 1.60em;
 }
 
  #projects {
@@ -83,7 +84,7 @@ blockquote {
  #info {
    padding-top: 20px;
    padding-bottom: 40px;
-   line-height: 1.20em;
+   line-height: 1.60em;
  }
 
  #mail {
