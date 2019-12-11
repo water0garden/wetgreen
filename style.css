@@ -111,15 +111,13 @@ a:active { color: #0000EE; }
 a:hover { color: #551A8B;}
 
 
+
 /* MEDIA QUERIES */
 
-/* CSS FOR TABLET AND MOBILE */
-@mobile:          ~"only screen and (max-width: 640px)";
+@media screen and (max-width: 800px) {
 
-/* CSS FOR MOBILE */
-@media @mobile {
-  #image-title {
-   width: 80%;
-  margin: 0 auto;
-  }
-}
+	#image-title, #body {
+		width: 80%;
+    
+	}
+]
