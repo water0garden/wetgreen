@@ -27,6 +27,11 @@ hr {
     padding-left: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
+
 p {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -112,7 +117,3 @@ a:hover { color: #551A8B;}
 
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	img: 90%;
-
-}
