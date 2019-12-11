@@ -116,8 +116,9 @@ a:hover { color: #551A8B;}
 
 @media screen and (max-width: 800px) {
 
-	#image-title, #body {
+	#image-title, {
 		width: 80%;
+		
     
 	}
 ]
