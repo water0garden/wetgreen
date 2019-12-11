@@ -3,6 +3,14 @@
   [property]: [value];
 }
 
+@font-face {
+font-family: Times New Roman;
+src: url( "Times New Roman PS.woff") format ('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+
 /* Global Styles go here */
 body {
   background-color: rgb(102, 255, 255);
