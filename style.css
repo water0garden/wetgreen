@@ -7,7 +7,7 @@
 font-family: "Times New Roman";
 src: url( "Times New Roman PS.woff") format ('woff');
 font-weight: normal;
-font-style: normal;
+
 }
 
 
@@ -50,7 +50,7 @@ blockquote {
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 0;
-  line-height: 1.60em;
+  line-height: 1.30em;
 }
 
 .button {
