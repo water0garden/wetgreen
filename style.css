@@ -49,22 +49,12 @@ blockquote {
   position: relative;
 }
 
-#image-title {
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-}
-
-
 #current-title {
   padding-top: 10px;
   font-weight: 600;
-
 }
 
 #current {
-
-
   padding-bottom: 20px;
   line-height: 1.60em;
 }
@@ -111,12 +101,6 @@ section {
   position: relative;
 }
 
-img {
-  max-height: 90%;
-  max-width: 90%;
-}
-
-
 a:link, a:visited {
 color: blue;
 text-decoration: underline;
@@ -125,3 +109,17 @@ display: inline-block;
 
 a:active { color: #0000EE; }
 a:hover { color: #551A8B;}
+
+
+/* MEDIA QUERIES */
+
+/* CSS FOR TABLET AND MOBILE */
+@mobile:          ~"only screen and (max-width: 640px)";
+
+/* CSS FOR MOBILE */
+@media @mobile {
+  #image-title {
+   width: 80%;
+  margin: 0 auto;
+  }
+}
