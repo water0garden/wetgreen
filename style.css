@@ -1,4 +1,4 @@
-/* Format for applying styling rules */
+/* Wet Green */
 [selector] {
   [property]: [value];
 }
@@ -7,7 +7,6 @@
 font-family: "Times New Roman";
 src: url( "Times New Roman PS.woff") format ('woff');
 font-weight: normal;
-
 }
 
 
@@ -20,7 +19,7 @@ body {
   padding-right: 2px;
   padding-top: 20px;
   padding-bottom: 40px;
-  font-family: Times New Roman, Serif;
+  font-family: "Times New Roman", "Times", serif;
 }
 hr {
     display: block;
@@ -64,7 +63,7 @@ blockquote {
 
 #current-title {
   padding-top: 10px;
-padding-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: 600;
 }
 
@@ -102,11 +101,11 @@ padding-bottom: 10px;
 
 h1 {
 
-    font-style: 32px "Times New Roman" ;
+    font-style: 32px "Times New Roman", "Times", serif;
     margin: 0 auto;
 }
 h5 {
-    font-style: Georgia, Times, italic;
+    font-style: "Times New Roman", "Times", serif;
     margin: 0px;
 }
 
