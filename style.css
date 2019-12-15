@@ -113,6 +113,14 @@ section {
   position: relative;
 }
 
+
+footer {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
 a:link, a:visited {
 color: blue;
 text-decoration: underline;
