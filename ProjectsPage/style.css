@@ -8,6 +8,10 @@ html, body {
 	height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
