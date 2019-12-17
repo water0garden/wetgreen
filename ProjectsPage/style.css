@@ -172,6 +172,13 @@ ul {
   position: relative;
 }
 
+#img-matter3 {
+  padding: 5px;
+  width: 35%;
+  display: inline-block;
+  position: relative;
+}
+
 
 #img-container {
   vertical-align: top;
@@ -199,30 +206,31 @@ p {
 
 
 footer{
-  padding-top: 100px;
-  padding-bottom: 40px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 80px;
   position: relative;
   margin: 1px;
   padding-left: 2px;
-
 }
+
 
 /*---------------- Media styles----------------*/
 @media screen and (max-width: 800px) {
 
     #sidebar, #content {
     		width: 100%;
-    	}
-ul {
-  display: inline;
-  text-align: center;
-}
+            	}
+        ul {
+          display: inline;
+          text-align: center;
+        }
 
-figure {
-  max-width: 90%;
-  padding: 20px;
-  margin: 0 auto;
-}
+        figure {
+          max-width: 90%;
+          padding: 20px;
+          margin: 0 auto;
+        }
 
     	#sidebar {
     		position: static;
@@ -259,5 +267,9 @@ figure {
         position: relative;
       }
 
+iframe {
+  width: 360px;
+  height: 215px;
 
+}
     }
