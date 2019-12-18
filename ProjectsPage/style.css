@@ -1,4 +1,3 @@
-/* Format for applying styling rules */
 [selector] {
   [property]: [value];
 }
@@ -25,14 +24,6 @@ main, menu, nav, section, summary, p {
   display: block;
 }
 
-a:link, a:visited {
-color: #0000EE;
-text-decoration: underline;
-display: inline-block;
-}
-
-a:active { color: #0000EE; }
-a:hover { color: #551A8B;}
 
 #inner-material {
   display: -ms-flexbox;
@@ -42,17 +33,21 @@ a:hover { color: #551A8B;}
 }
 
 /*----------------Typography----------------*/
-
+      body{
+      font-family: "Times New Roman", "Times", serif;
+      }
 
 /*----------------Navigation----------------*/
-.button {
-  border: 1px solid;
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.5em;
-  width: 70px;
-  position: relative;
-}
+
+    a:link, a:visited {
+    color: #0000EE;
+    text-decoration: underline;
+    display: inline-block;
+    }
+
+    a:active { color: #0000EE; }
+    a:hover { color: #551A8B;}
+
 
 /*--------------Material----------------*/
 
@@ -64,8 +59,7 @@ a:hover { color: #551A8B;}
 
 
 body {
-  background-color: rgb(102, 255, 255);
-  background: white;
+  background-color: MistyRose;
   color: black;
   font-style: normal;
 }
@@ -85,32 +79,28 @@ hr {
 
 
 h1 {
-    font-style: 16px "Times New Roman";
+    font-style: 16px "Times New Roman", "Times", serif;
     font-weight: normal;
     align-content: center;
-
     padding-bottom: 10px;
     margin: 0 auto;
     position: relative;
     display: block;
     padding-top: 20px;
-
-
 }
 
 h2 {
-    font-style: 14px "Times New Roman";
+    font-style: 14px "Times New Roman", "Times", serif;
     font-weight: normal;
     padding-bottom: 5px;
     margin: 0 auto;
     position: relative;
-
 }
 
 
 
 h5 {
-    font-style: Georgia, Times, italic;
+    font-style: 14px "Times New Roman", "Times", serif;
     margin: 0px;
 }
 
@@ -154,9 +144,6 @@ ul {
   position: relative;
 }
 
-#Mondmuschel {
-
-}
 
 #end {
   padding-top: 20px;
@@ -188,10 +175,8 @@ ul {
   vertical-align: top;
   box-sizing: border-box;
   margin: 10px;
-  width: 25%; /* three container s (use 25% for four, and 50% for two, etc) */
-  padding: 4px; /* if you want space between the images */
+  width: 25%;
   float: left;
-
 }
 
 
