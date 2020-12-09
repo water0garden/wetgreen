@@ -129,8 +129,9 @@ display: inline-block;
 a:active { color: #0000EE; }
 a:hover { color: #551A8B;}
 
-.secret {
-	color: black;
+a.secret {
+color: black;
 text-decoration: none;
 display: inline-block;
+cursor: help;
 }
