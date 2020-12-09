@@ -132,7 +132,7 @@ margin: 0 auto;
 position: relative;
 height: 10%;
 width: 80%;
-padding-bottom: 2em;
+padding-bottom: 1em;
 display: block;
 position: relative;
 border-right: 1px solid #000;
@@ -273,10 +273,10 @@ p {
 footer{
   text-align: center;
   margin-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
   position: relative;
-  margin: 1px;
-  padding-left: 2px;
+  margin: 0px;
+  padding-left: 0px;
 }
 
 /*  padding: 0 18px;
