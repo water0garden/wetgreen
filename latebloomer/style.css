@@ -121,7 +121,7 @@ a {
 }
 
 a:hover:after {
-    content: url('puriri_moth_by_ashcrimson0803_d8jya83-fullview.jpg'); /* no need for qoutes */
+    content: url('image/puriri_moth_by_ashcrimson0803_d8jya83-fullview.jpg'); /* no need for qoutes */
     position: absolute;
     background-size: cover;
     background-attachment: inherit;
@@ -140,7 +140,8 @@ a:hover {
   margin: 0 auto;
   position: relative;
   min-width: 100%;
-  min-height: 100%;
+  object-fit: cover;
+  min-height: 75vw;
   z-index: -1;
 }
 
@@ -150,7 +151,8 @@ a:hover {
   max-width: 100%;
   position: relative;
   background-size: 100% 100%;
-  min-height: 100vh;
-  background-image: url('moth-outline.png');
+  background-image: url('image/moth-outline.png');
   background-repeat: no-repeat;
+  min-height: 75vw;
+  overflow: hidden;
 }
