@@ -190,6 +190,7 @@ animation: bloom 20s infinite;
     background-size: 100% 100%;
     background-repeat: none;
     opacity: 20%;
+    z-index: -1;
 
   }
 }
