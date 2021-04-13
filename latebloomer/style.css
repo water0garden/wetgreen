@@ -191,7 +191,7 @@ animation: bloom 20s infinite;
     margin-top: 0;
     background-size: 100% 100%;
     background-repeat: none;
-    background-image: 20%;
+    background-image: 60%;
     z-index: -1;
 
   }
@@ -199,7 +199,7 @@ animation: bloom 20s infinite;
 
 @media (max-width: 800px) {
   article {
-    width: 80%;
+    width: 60%;
 
   }
 }
