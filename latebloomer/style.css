@@ -97,6 +97,8 @@ body {
 
 
 
+
+
 html {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -189,8 +191,15 @@ animation: bloom 20s infinite;
     margin-top: 0;
     background-size: 100% 100%;
     background-repeat: none;
-    opacity: 20%;
+    background-image: 20%;
     z-index: -1;
+
+  }
+}
+
+@media (max-width: 800px) {
+  article {
+    width: 80%;
 
   }
 }
