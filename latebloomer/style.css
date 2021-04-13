@@ -176,8 +176,10 @@ animation: bloom 20s infinite;
 }
 
 @keyframes bloom {
- from {opacity: 0%;}
-to {opacity: 80%;}
+ 0% {opacity: 0%;}
+100% {opacity: 80%;}
+0% {opacity: 0%;}
+80% {opacity: 80%;}
 }
 
 
@@ -187,8 +189,7 @@ to {opacity: 80%;}
     margin-top: 0;
     background-size: 100% 100%;
     background-repeat: none;
-
-
+    opacity: 20%;
 
   }
 }
