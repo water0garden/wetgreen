@@ -199,7 +199,7 @@ animation: bloom 20s infinite;
 
 @media (max-width: 800px) {
   article {
-    width: 60%;
+    width: 90%;
 
   }
 }
