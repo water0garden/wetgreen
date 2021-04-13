@@ -168,10 +168,10 @@ min-width: 100%;
 max-width: 100%;
 object-fit: contain;
 min-height: 75vw;
-z-index: -1;
 position: absolute;
 background-attachment: inherit;
-top: 100px;
+top: 0px;
+z-index: -1;
 animation: bloom 20s infinite;
 }
 
@@ -183,7 +183,12 @@ to {opacity: 80%;}
 
 
 @media (max-width: 800px) {
-  .moth-container {
-    width: 100%;
+  .bloom-appear {
+    margin-top: 0;
+    background-size: 100% 100%;
+    background-repeat: none;
+
+
+
   }
 }
