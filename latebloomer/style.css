@@ -197,9 +197,9 @@ animation: bloom 20s infinite;
   }
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   article {
     width: 90%;
 
   }
-}
+} */
