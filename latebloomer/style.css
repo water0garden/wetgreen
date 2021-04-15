@@ -187,7 +187,7 @@ animation: bloom 20s infinite;
 
 
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .bloom-appear {
    margin-top: 0;
     background-size: 100% 100%;
@@ -195,7 +195,7 @@ animation: bloom 20s infinite;
     z-index: -1;
 
   }
-}
+} */
 
 /* @media (max-width: 800px) {
   article {
