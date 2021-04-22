@@ -14,6 +14,7 @@ html, body {
   font-smoothing: antialiased;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 
@@ -21,9 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
  border-bottom: double;
-padding-top: 40px;
+padding-top: 10px;
 padding-bottom: 10px;
 width: 100%;
+/* background-color: #BEC6C9; */
 }
 
 
@@ -102,7 +104,7 @@ main, menu, nav, section, summary, p {
 }
 
 body {
-  background-color: white	;
+  /* background-color: #BEC6C9;	 */
   color: black;
   font-style: normal;
 }
@@ -191,6 +193,7 @@ h5 {
   display: block;
   position: relative;
   text-align: top;
+  /* background-color: #BEC6C9; */
 
 }
 
@@ -213,14 +216,14 @@ ul {
 /*---------------- Main Content----------------*/
 
 #content {
-
+  background-color: white;
   height: 100%;
   width: 90%;
   padding-bottom: 4em;
   display: inline-block;
   position: relative;
   text-align: center;
-   border-right: double;
+  border-right: double;
 
 }
 
@@ -301,6 +304,7 @@ footer{
   position: relative;
   margin: 0px;
   padding-left: 0px;
+  /* background-color: #BEC6C9; */
 }
 
 /*  padding: 0 18px;
